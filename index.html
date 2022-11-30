@@ -1,119 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="main.js" defer></script>
-    <title>Nav bar</title>
+    
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
 </head>
 
 <body>
-    <header>
-            <nav class="navbar">
-                <div class="navbar_logo">
-                    <a href="index.html">
-                    <img src="/img/logo_on.png" alt="">
-                    </a>
-                </div>
-
-                <ul class="navbar_menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Recipe</a></li>
-                    <li><a href="">Ingredients</a></li>
-                    <li><a href="">Side dishes</a></li>
-                    <li><a href="">Info</a></li>
-                </ul>
-
-                <ul class="navbar_icons">
-                    <li><a id="login1" href="">로그인</a></li>
-                    <li><a href="">회원가입</a></li>
-                </ul>
-                <button class="navbar_toggleBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
-                
-            </nav>
-    </header>
-    <section class="title_header">
-        <div class="title">
-            <h1>HEALTHCARE</h1>
-            <button>about health</button>
-        </div>
-    </section>
-
-    <section class="intro">
-        <div class="card">
-            <img src="/img/7.jfif" alt="">
-            <h1>lorem1</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium repellendus quia vero eius sequi autem assumenda quis eos unde enim iste dolores, delectus sint, minima ratione atque veniam et nostrum.</p>
-        </div>
-        <div class="card">
-            <img src="/img/4.jfif" alt="">
-            <h1>lorem2</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium repellendus quia vero eius sequi autem assumenda quis eos unde enim iste dolores, delectus sint, minima ratione atque veniam et nostrum.</p>
-        </div>
-        <div class="card">
-            <img src="/img/1.png" alt="">
-            <h1>lorem3</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium repellendus quia vero eius sequi autem assumenda quis eos unde enim iste dolores, delectus sint, minima ratione atque veniam et nostrum.</p>
-        </div>
-    </section>
-    
-    <section class="service">
-        <div class="container">
-            <div class="img">
-                <img src="/img/5.jpg" alt="">
-            </div>
-        </div>
-        <div class="text">
-            <h1>lorem1</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nobis laborum quasi eius nesciunt id cumque voluptatu</p>
-            <button>more...</button>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="left">
-                <h1>LOREM!</h1>
-                <p>http://naver.com</p>
-                <div class="sns">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-github"></i>
-                </div>
-            </div>
-            <div class="right">
-                <div class="list">
-                    <h2>CONTECT</h2>
-                    <ul>
-                        <li>contect #1</li>
-                        <li>contect #2</li>
-                        <li>contect #3</li>
-                        <li>contect #4</li>
-                    </ul>
-                </div>
-                <div class="list">
-                    <h2>ABOUT</h2>
-                    <ul>
-                        <li>about #1</li>
-                        <li>about #2</li>
-                        <li>about #3</li>
-                        <li>about #4</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="copy_right">
-        <p>저작권</p>
+    <div class="blackBackground">
+        <div class="razor"></div>
     </div>
-    </footer>
+    <!-- fixed -->
+    <div class="menu">
+        <div class="menuLeft">
+            <p class="menuText" id="menuIntro"><a href="2.html">Intro</a></p>
+            <p class="menuText" id="menuProduct"><a href="">Content</a></p>
+            <p class="menuText" id="menuCounceling"><a href="">Counceling</a></p>
+            <a href="">로그인</a>
+            <a href="">회원가입</a>
+        </div>
+
+    </div>
+    <a href="index.html"><img class="companyIcon" src='imgs/logo.png'></a>
+    <div class="pageNumberBox">
+        <p class="pageNumber"><span class="pageNumberValue">01</span> / 03</p>
+    </div>
+    <a href="#" target="_blank"><img src="imgs/github.png" class="icon" id="facebook"></a>
+    <a href="#" target="_blank"><img src="imgs/instagram.png" class="icon" id="instagram"></a>
+    <img src="imgs/arrow.gif" class="arrow">
+    <div class="menuButton">
+        <div class="menuBtnUpLine"></div>
+        <div class="menuBtnBottomLine"></div>
+    </div>
+    <!-- slider -->
+    <ul class="slider">
+        <li class="page" id="page1" alt="">
+            <p class="title" id="introTitle">Intro</p>
+            <p class="headLine" id="introHeadLine">
+                <span class="bdText">Microbiome</span> Devote themselves<span class="bdText"> to environmental</span><br>
+                sustainability<br>
+                
+            </p>
+            <div class="moreLine" id="introMore"><a href="#" class="more">more</a>
+                <div class="moreBorderLine"></div>
+            </div>
+        </li>
+        <li class="page" id="page2" alt="">
+            <p class="title" id="productTitle">Content</p>
+            <p class="headLine" id="productHeadLine">
+                Microbial EVs<br>
+                Determineour <br>
+                health.
+            </p>
+            <div class="moreLine" id="productMore"><a href="#" class="more">more</a>
+                <div class="moreBorderLine"></div>
+            </div>
+        </li>
+        </li>
+        <li class="page" id="page3" alt="">
+            <p class="title" id="councelingTitle">Counceling</p>
+            <p class="headLine" id="councelingHeadLine">
+                Medicine Delivery through <br>
+                microbiome and EV convergence.
+            </p>
+            <div class="moreLine" id="councelingMore"><a href="#" class="more">more</a>
+                <div class="moreBorderLine"></div>
+            </div>
+        </li>
+        <!-- <li class = "page" id = "page4" alt=""></li> -->
+    </ul>
 </body>
+
 </html>
