@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+
+body{
+    /* background-color: rgb(196,207,229); */
+
+}
+
+header{
+    background-image: url("../images/main/backgroundimg3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+nav{
+
+}
+
+.main{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 60px;
+}
+
+.section_header_text h1, .header_text p{
+    margin: 10px 0;
+}
+
+/* .sub_navbar ul{
+    position: relative;
+} */
+
+.sub-menu-about-clearfix{
+    padding-top: 15px;
+    list-style-type: none;
+    text-align: center;
+    color: rgb(128, 122, 122);
+}
+
+.sub-menu-about-clearfix li{
+    padding-right: 100px;
+    display: inline;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 21px;
+    font-size: 20px;
+    /* background-color: white; */
+}
+
+.sub-menu-about-clearfix a{
+    text-decoration: center;
+    color: inherit;
+}
+
+.choose_sub{
+    color: white;
+    background-color: #2C2B2F;
+    border-bottom: 2px solid #FFFF00;
+}
+
+.search{
+    /* width: 100%; */
+    position: absolute;
+    display: inline;
+    right: 0;
+}
+
+
+.swiper {
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+}
+
+article>p{
+    font-size: 20px;
+    padding: 20px 0;
+    margin-left: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.list{
+    width: 400px;
+    height: 90%;
+    display: inline;
+    float: left;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.list img{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.list p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.list:hover{
+    transform: translate(-5px, -5px);
+    /* background-color: red; */
+    box-shadow: 2px 2px 3px gray;
+}
+
+#toTop {
+    position: fixed;   /* 포지션 고정 */
+    bottom: 50px;     /* 밑에서 100px */
+    right: 50px;
+    display: none;     /* 보여지지 없음 - 기본적으로  안보여지게 */
+    z-index: 9999;     /* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */
+    background-color: white;
+    border-radius: 20%;
+    border: 0.5px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+ #toTop:hover{
+    background-color: yellow;
+    color: black;
+    width: 45px;
+    height: 45px;
+ }
+
+@media screen and (max-width: 1000px) {
+    .sub_navbar ul{
+        padding: 40px 0;
+    }
+
+    .search{
+        bottom: 0;
+    }
+}
