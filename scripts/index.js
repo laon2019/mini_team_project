@@ -5,13 +5,9 @@ $(document).ready(function() {
   console.log(documentHeight);
   moveScroll(0);
   //첫 오프닝
-  $('.razor').animate({
-      width: '2000px'
-    }, 100)
-    .fadeOut(2000);
   //뒷배경 삭제
   setTimeout(function() {
-    $('.blackBackground').fadeOut(2000);
+    $('.blackBackground').fadeOut(5000);
   }, 200);
   //뒷배경 blur
   setTimeout(function() {
@@ -108,7 +104,7 @@ function moveScroll(location) {
 }
 function effectScroll(HeadLine, Title){
   setTimeout(function() {
-    $(HeadLine).animate({top : '0px', opacity : '1'}, 800);
+    $(HeadLine).animate({top : '0px', opacity : '1'}, 700);
   }, 300);
   
   setTimeout(function() {
